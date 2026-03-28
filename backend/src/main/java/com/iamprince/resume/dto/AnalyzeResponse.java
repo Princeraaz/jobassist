@@ -1,4 +1,4 @@
-package main.java.com.iamprince.resume.dto;
+package com.iamprince.resume.dto;
 
 import java.util.List;
 

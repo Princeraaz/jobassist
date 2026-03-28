@@ -1,10 +1,11 @@
-package main.java.com.iamprince.resume.controller;
+package com.iamprince.resume.controller;
 
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import main.java.com.iamprince.resume.dto.ChatResponse;
-import main.java.com.iamprince.resume.service.ChatService;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.http.ResponseEntity;
+import com.iamprince.resume.dto.ChatResponse;
+import com.iamprince.resume.service.ChatService;
 
 @RestController
 public class ChatQueryController {

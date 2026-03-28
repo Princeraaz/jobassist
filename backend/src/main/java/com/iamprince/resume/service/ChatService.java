@@ -1,6 +1,6 @@
-package main.java.com.iamprince.resume.service;
+package com.iamprince.resume.service;
 
-import main.java.com.iamprince.resume.dto.ChatResponse;
+import com.iamprince.resume.dto.ChatResponse;
 
 public interface ChatService {
 
